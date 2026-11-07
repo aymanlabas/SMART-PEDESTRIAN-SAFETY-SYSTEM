@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-05 20:08:35.495509 by Eclipse SUMO randomTrips.py v1_28_0+0000-daf91b55789
+<configuration>
+    <net-file value="network\modern_district.net.xml"/>
+    <output-trip-file value="routes\vehicles.trips.xml"/>
+    <prefix value="veh"/>
+    <end value="300.0"/>
+    <period value="5.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="veh0" depart="0.00" from="C1D1" to="A0B0"/>
+    <trip id="veh1" depart="5.00" from="B1A1" to="B0A0"/>
+    <trip id="veh2" depart="10.00" from="C3B3" to="C2C1"/>
+    <trip id="veh3" depart="15.00" from="D1D2" to="A1B1"/>
+    <trip id="veh4" depart="20.00" from="B2C2" to="A0B0"/>
+    <trip id="veh5" depart="25.00" from="B0A0" to="C0B0"/>
+    <trip id="veh6" depart="30.00" from="A0B0" to="A3B3"/>
+    <trip id="veh7" depart="35.00" from="C2B2" to="C0D0"/>
+    <trip id="veh8" depart="40.00" from="B0A0" to="C1C0"/>
+    <trip id="veh9" depart="45.00" from="D0C0" to="A0A1"/>
+    <trip id="veh10" depart="50.00" from="D0C0" to="C2C3"/>
+    <trip id="veh11" depart="55.00" from="B1C1" to="A2B2"/>
+    <trip id="veh12" depart="60.00" from="D2D3" to="B1C1"/>
+    <trip id="veh13" depart="65.00" from="A1B1" to="A1B1"/>
+    <trip id="veh14" depart="70.00" from="D1C1" to="C1C0"/>
+    <trip id="veh15" depart="75.00" from="D0C0" to="C3B3"/>
+    <trip id="veh16" depart="80.00" from="C0C1" to="D3C3"/>
+    <trip id="veh17" depart="85.00" from="B2B1" to="C0D0"/>
+    <trip id="veh18" depart="90.00" from="D0D1" to="C1C2"/>
+    <trip id="veh19" depart="95.00" from="D1D0" to="C1B1"/>
+    <trip id="veh20" depart="100.00" from="C2C3" to="A1A0"/>
+    <trip id="veh21" depart="105.00" from="B0A0" to="B1A1"/>
+    <trip id="veh22" depart="110.00" from="A1A2" to="B0B1"/>
+    <trip id="veh23" depart="115.00" from="A1B1" to="B1A1"/>
+    <trip id="veh24" depart="120.00" from="C1D1" to="B2A2"/>
+    <trip id="veh25" depart="125.00" from="B2A2" to="B0A0"/>
+    <trip id="veh26" depart="130.00" from="B0C0" to="D2D1"/>
+    <trip id="veh27" depart="135.00" from="C2B2" to="C1C2"/>
+    <trip id="veh28" depart="140.00" from="A3A2" to="C2D2"/>
+    <trip id="veh29" depart="145.00" from="A2B2" to="B2B1"/>
+    <trip id="veh30" depart="150.00" from="D3D2" to="C1D1"/>
+    <trip id="veh31" depart="155.00" from="C0D0" to="C2C1"/>
+    <trip id="veh32" depart="160.00" from="D1C1" to="C3D3"/>
+    <trip id="veh33" depart="165.00" from="B0A0" to="A0B0"/>
+    <trip id="veh34" depart="170.00" from="B1B2" to="B0C0"/>
+    <trip id="veh35" depart="175.00" from="B0A0" to="D2D3"/>
+    <trip id="veh36" depart="180.00" from="D1D2" to="B1B2"/>
+    <trip id="veh37" depart="185.00" from="C2B2" to="B2B1"/>
+    <trip id="veh38" depart="190.00" from="D2C2" to="B3B2"/>
+    <trip id="veh39" depart="195.00" from="B0C0" to="B0B1"/>
+    <trip id="veh40" depart="200.00" from="C0D0" to="B0C0"/>
+    <trip id="veh41" depart="205.00" from="C1C0" to="D2C2"/>
+    <trip id="veh42" depart="210.00" from="B2B3" to="B0A0"/>
+    <trip id="veh43" depart="215.00" from="D3D2" to="C0B0"/>
+    <trip id="veh44" depart="220.00" from="A1B1" to="A1A0"/>
+    <trip id="veh45" depart="225.00" from="A2A1" to="C1D1"/>
+    <trip id="veh46" depart="230.00" from="D0C0" to="B2C2"/>
+    <trip id="veh47" depart="235.00" from="A1A2" to="B2B1"/>
+    <trip id="veh48" depart="240.00" from="D3D2" to="C0C1"/>
+    <trip id="veh49" depart="245.00" from="D3C3" to="D1D0"/>
+    <trip id="veh50" depart="250.00" from="A0A1" to="C2D2"/>
+    <trip id="veh51" depart="255.00" from="C2C1" to="C0C1"/>
+    <trip id="veh52" depart="260.00" from="B0C0" to="C1D1"/>
+    <trip id="veh53" depart="265.00" from="A2A1" to="B2C2"/>
+    <trip id="veh54" depart="270.00" from="B3A3" to="D2D3"/>
+    <trip id="veh55" depart="275.00" from="D1D2" to="B0C0"/>
+    <trip id="veh56" depart="280.00" from="C0B0" to="A3A2"/>
+    <trip id="veh57" depart="285.00" from="D2C2" to="D1D0"/>
+    <trip id="veh58" depart="290.00" from="B1B0" to="C1D1"/>
+    <trip id="veh59" depart="295.00" from="C1C2" to="A2B2"/>
+</routes>

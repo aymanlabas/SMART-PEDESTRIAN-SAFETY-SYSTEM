@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-05 20:10:10.185793 by Eclipse SUMO randomTrips.py v1_28_0+0000-daf91b55789
+<configuration>
+    <net-file value="network\modern_district.net.xml"/>
+    <output-trip-file value="routes\pedestrians.trips.xml"/>
+    <persons value="True"/>
+    <prefix value="ped"/>
+    <seed value="17"/>
+    <min-distance value="30.0"/>
+    <max-distance value="200.0"/>
+    <period value="8.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+</routes>
