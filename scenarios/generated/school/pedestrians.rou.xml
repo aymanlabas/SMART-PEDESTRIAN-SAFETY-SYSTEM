@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes>
+    <vType id="normalPed" vClass="pedestrian" maxSpeed="1.39" imgFile="assets/pedestrians/adult.png" color="#00CC66" />
+    <vType id="slowPed" vClass="pedestrian" maxSpeed="0.5" imgFile="assets/pedestrians/elderly.png" color="192,132,252" />
+    <vType id="childBehaviorPed" vClass="pedestrian" maxSpeed="1.2" imgFile="assets/pedestrians/child.png" color="#168BFF" jmDriveAfterRedTime="3" />
+    <person id="school_ped_0_0" depart="0.00" type="slowPed">
+        <walk edges="A3B3 :B3_w2 :B3_c1 :B3_w1 B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 :C2_c2 :C2_w2 C2D2" />
+    </person>
+    <person id="school_ped_0_1" depart="0.70" type="childBehaviorPed">
+        <walk edges="A1A0 :A0_w0 A0B0 :B0_w2 :B0_c1 :B0_w1 B0B1 :B1_w2 :B1_c1 :B1_w1 B1B2 :B2_w2 :B2_c1 :B2_w1 :B2_c0 :B2_w0 B2A2 :A2_w1 A2A3 :A3_w1 A3B3" />
+    </person>
+    <person id="school_ped_0_2" depart="1.40" type="childBehaviorPed">
+        <walk edges="B3C3 :C3_w2 :C3_c1 :C3_w1 C3D3 :D3_w1 :D3_c0 :D3_w0 D3C3" />
+    </person>
+    <person id="school_ped_0_3" depart="2.10" type="normalPed">
+        <walk edges="B3A3 :A3_w0 A3A2 :A2_w0 A2A1 :A1_w0 :A1_c2 :A1_w2 A1B1 :B1_w3 :B1_c2 :B1_w2 B1C1" />
+    </person>
+    <person id="school_ped_0_4" depart="2.80" type="normalPed">
+        <walk edges="B2B3 :B3_w1 :B3_c0 :B3_w0 :B3_c2 :B3_w2 B3B2" />
+    </person>
+    <person id="school_ped_0_5" depart="3.50" type="normalPed">
+        <walk edges="B0C0 :C0_w2 :C0_c1 :C0_w1 :C0_c0 :C0_w0 C0B0 :B0_w1 B0B1 :B1_w2 :B1_c1 :B1_w1 :B1_c0 :B1_w0 B1A1 :A1_w1 A1A2 :A2_w2 A2B2" />
+    </person>
+    <person id="school_ped_0_6" depart="4.20" type="normalPed">
+        <walk edges="A3A2 :A2_w0 :A2_c2 :A2_w2 A2B2 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 D2D1" />
+    </person>
+    <person id="school_ped_0_7" depart="5.60" type="normalPed">
+        <walk edges="A2B2 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 C2C1 :C1_w0 :C1_c3 :C1_w3 C1C0" />
+    </person>
+    <person id="school_ped_0_8" depart="8.40" type="childBehaviorPed">
+        <walk edges="A3A2 :A2_w0 :A2_c2 :A2_w2 A2B2" />
+    </person>
+    <person id="school_ped_0_9" depart="9.10" type="normalPed">
+        <walk edges="B2B3 :B3_w1 :B3_c0 :B3_w0 B3A3 :A3_w0 A3A2 :A2_w0 A2A1 :A1_w0 A1A0" />
+    </person>
+    <person id="school_ped_0_10" depart="9.80" type="normalPed">
+        <walk edges="B2C2 :C2_w3 C2C1 :C1_w0 :C1_c3 :C1_w3 C1C0 :C0_w0 C0B0 :B0_w1 :B0_c0 :B0_w0 :B0_c2 :B0_w2 B0C0" />
+    </person>
+    <person id="school_ped_0_11" depart="11.20" type="normalPed">
+        <walk edges="A1A0 :A0_w0 A0B0 :B0_w2 :B0_c1 :B0_w1 B0B1 :B1_w2 :B1_c1 :B1_w1 B1B2" />
+    </person>
+    <person id="school_ped_0_12" depart="11.90" type="normalPed">
+        <walk edges="B2A2 :A2_w1 :A2_c0 :A2_w0 A2A1 :A1_w0 :A1_c2 :A1_w2 A1B1 :B1_w3 :B1_c2 :B1_w2 :B1_c1 :B1_w1 B1B2" />
+    </person>
+    <person id="school_ped_0_13" depart="12.60" type="normalPed">
+        <walk edges="D3D2 :D2_w0 D2C2 :C2_w1 :C2_c0 :C2_w0 C2B2 :B2_w1 B2B3 :B3_w1 B3C3" />
+    </person>
+    <person id="school_ped_0_14" depart="14.00" type="slowPed">
+        <walk edges="B2B3 :B3_w1 :B3_c0 :B3_w0 :B3_c2 :B3_w2 B3B2 :B2_w0 B2A2 :A2_w1 A2A3 :A3_w1 A3B3" />
+    </person>
+    <person id="school_ped_0_15" depart="14.70" type="childBehaviorPed">
+        <walk edges="D0D1 :D1_w1 D1D2 :D2_w1 :D2_c0 :D2_w0 D2C2 :C2_w1 :C2_c0 :C2_w0 C2B2 :B2_w1 :B2_c0 :B2_w0 B2A2 :A2_w1 A2A3" />
+    </person>
+    <person id="school_ped_0_16" depart="16.80" type="normalPed">
+        <walk edges="B1A1 :A1_w1 A1A2 :A2_w2 A2B2 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 :D2_c1 :D2_w1 :D2_c0 :D2_w0 D2C2" />
+    </person>
+    <person id="school_ped_0_17" depart="18.20" type="normalPed">
+        <walk edges="C1C2 :C2_w2 :C2_c1 :C2_w1 :C2_c0 :C2_w0 C2B2" />
+    </person>
+    <person id="school_ped_0_18" depart="20.30" type="normalPed">
+        <walk edges="B2B1 :B1_w0 :B1_c3 :B1_w3 :B1_c2 :B1_w2 :B1_c1 :B1_w1 B1B2 :B2_w2 :B2_c1 :B2_w1 B2B3 :B3_w1 B3C3 :C3_w2 C3C2" />
+    </person>
+    <person id="school_ped_0_19" depart="21.00" type="slowPed">
+        <walk edges="C1C2 :C2_w2 :C2_c1 :C2_w1 :C2_c0 :C2_w0 :C2_c3 :C2_w3 C2C1 :C1_w0 C1B1 :B1_w1 B1B2" />
+    </person>
+    <person id="school_ped_0_20" depart="21.70" type="childBehaviorPed">
+        <walk edges="A3A2 :A2_w0 :A2_c2 :A2_w2 A2B2 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 :D2_c1 :D2_w1 :D2_c0 :D2_w0 D2C2" />
+    </person>
+    <person id="school_ped_0_21" depart="22.40" type="childBehaviorPed">
+        <walk edges="A3A2 :A2_w0 A2A1 :A1_w0 :A1_c2 :A1_w2 :A1_c1 :A1_w1 A1A2" />
+    </person>
+    <person id="school_ped_0_22" depart="23.10" type="normalPed">
+        <walk edges="C2C3 :C3_w1 :C3_c0 :C3_w0 C3B3 :B3_w0 B3A3 :A3_w0 A3A2 :A2_w0 A2A1" />
+    </person>
+    <person id="school_ped_0_23" depart="23.80" type="normalPed">
+        <walk edges="A3A2 :A2_w0 :A2_c2 :A2_w2 A2B2 :B2_w3 :B2_c2 :B2_w2 :B2_c1 :B2_w1 B2B3 :B3_w1 :B3_c0 :B3_w0 B3A3" />
+    </person>
+    <person id="school_ped_0_24" depart="24.50" type="normalPed">
+        <walk edges="C2B2 :B2_w1 :B2_c0 :B2_w0 :B2_c3 :B2_w3 B2B1 :B1_w0 B1A1" />
+    </person>
+    <person id="school_ped_0_25" depart="25.90" type="normalPed">
+        <walk edges="B3C3 :C3_w2 C3C2 :C2_w0 C2B2 :B2_w1 :B2_c0 :B2_w0 B2A2 :A2_w1 :A2_c0 :A2_w0 A2A1 :A1_w0 A1A0" />
+    </person>
+    <person id="school_ped_0_26" depart="26.60" type="normalPed">
+        <walk edges="A1A2 :A2_w2 A2B2 :B2_w3 :B2_c2 :B2_w2 :B2_c1 :B2_w1 B2B3 :B3_w1 B3C3 :C3_w2 :C3_c1 :C3_w1 C3D3" />
+    </person>
+    <person id="school_ped_0_27" depart="30.10" type="normalPed">
+        <walk edges="A2A3 :A3_w1 A3B3 :B3_w2 :B3_c1 :B3_w1 B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 D2D1 :D1_w0 :D1_c2 :D1_w2 D1D0" />
+    </person>
+    <person id="school_ped_0_28" depart="31.50" type="normalPed">
+        <walk edges="C2B2 :B2_w1 :B2_c0 :B2_w0 :B2_c3 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 C2C1 :C1_w0 :C1_c3 :C1_w3 C1C0 :C0_w0 C0B0" />
+    </person>
+    <person id="school_ped_0_29" depart="32.90" type="normalPed">
+        <walk edges="A2A3 :A3_w1 :A3_c0 :A3_w0 A3A2 :A2_w0 A2A1 :A1_w0 A1A0" />
+    </person>
+    <person id="school_ped_0_30" depart="33.60" type="normalPed">
+        <walk edges="A1A2 :A2_w2 A2B2 :B2_w3 :B2_c2 :B2_w2 :B2_c1 :B2_w1 B2B3 :B3_w1 B3C3 :C3_w2 :C3_c1 :C3_w1 C3D3 :D3_w1 D3D2" />
+    </person>
+    <person id="school_ped_0_31" depart="34.30" type="normalPed">
+        <walk edges="B2B3 :B3_w1 B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 C2C1 :C1_w0 :C1_c3 :C1_w3 :C1_c2 :C1_w2 C1D1 :D1_w2 D1D0" />
+    </person>
+    <person id="school_ped_0_32" depart="35.70" type="childBehaviorPed">
+        <walk edges="A2A3 :A3_w1 A3B3 :B3_w2 :B3_c1 :B3_w1 B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 :D2_c1 :D2_w1 D2D3" />
+    </person>
+    <person id="school_ped_0_33" depart="36.40" type="childBehaviorPed">
+        <walk edges="B2C2 :C2_w3 C2C1 :C1_w0 C1B1 :B1_w1 :B1_c0 :B1_w0 B1A1" />
+    </person>
+    <person id="school_ped_0_34" depart="37.10" type="normalPed">
+        <walk edges="A3A2 :A2_w0 A2A1 :A1_w0 :A1_c2 :A1_w2 A1B1 :B1_w3 :B1_c2 :B1_w2 B1C1 :C1_w3 :C1_c2 :C1_w2 C1D1 :D1_w2 D1D0 :D0_w0 D0C0" />
+    </person>
+    <person id="school_ped_0_35" depart="37.80" type="normalPed">
+        <walk edges="C2C3 :C3_w1 :C3_c0 :C3_w0 C3B3 :B3_w0 B3A3 :A3_w0 A3A2 :A2_w0 A2A1" />
+    </person>
+    <person id="school_ped_0_36" depart="39.90" type="normalPed">
+        <walk edges="C2B2 :B2_w1 :B2_c0 :B2_w0 :B2_c3 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 D2D1 :D1_w0 :D1_c2 :D1_w2 D1D0 :D0_w0 D0C0" />
+    </person>
+    <person id="school_ped_0_37" depart="40.60" type="normalPed">
+        <walk edges="B1B0 :B0_w0 B0A0 :A0_w1 A0A1 :A1_w2 :A1_c1 :A1_w1 A1A2 :A2_w2 :A2_c1 :A2_w1 A2A3 :A3_w1 :A3_c0 :A3_w0 A3A2" />
+    </person>
+    <person id="school_ped_0_38" depart="42.70" type="childBehaviorPed">
+        <walk edges="B2B1 :B1_w0 :B1_c3 :B1_w3 B1B0 :B0_w0 :B0_c2 :B0_w2 B0C0" />
+    </person>
+    <person id="school_ped_0_39" depart="43.40" type="childBehaviorPed">
+        <walk edges="B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 C2C1 :C1_w0 C1B1 :B1_w1 :B1_c0 :B1_w0 :B1_c3 :B1_w3 B1B0 :B0_w0 :B0_c2 :B0_w2 B0C0" />
+    </person>
+    <person id="school_ped_0_40" depart="44.10" type="normalPed">
+        <walk edges="A2A3 :A3_w1 A3B3 :B3_w2 B3B2 :B2_w0 :B2_c3 :B2_w3 B2B1 :B1_w0 :B1_c3 :B1_w3 B1B0 :B0_w0 :B0_c2 :B0_w2 :B0_c1 :B0_w1 B0B1" />
+    </person>
+    <person id="school_ped_0_41" depart="46.20" type="normalPed">
+        <walk edges="B3A3 :A3_w0 A3A2 :A2_w0 A2A1 :A1_w0 :A1_c2 :A1_w2 A1B1 :B1_w3 :B1_c2 :B1_w2 :B1_c1 :B1_w1 B1B2" />
+    </person>
+    <person id="school_ped_0_42" depart="48.30" type="normalPed">
+        <walk edges="C2C3 :C3_w1 :C3_c0 :C3_w0 C3B3 :B3_w0 :B3_c2 :B3_w2 B3B2 :B2_w0 :B2_c3 :B2_w3 B2B1 :B1_w0 B1A1 :A1_w1 A1A2" />
+    </person>
+    <person id="school_ped_0_43" depart="49.00" type="slowPed">
+        <walk edges="B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 C2C1 :C1_w0 :C1_c3 :C1_w3 C1C0 :C0_w0 :C0_c2 :C0_w2 :C0_c1 :C0_w1 C0C1" />
+    </person>
+    <person id="school_ped_0_44" depart="49.70" type="childBehaviorPed">
+        <walk edges="B2B3 :B3_w1 :B3_c0 :B3_w0 :B3_c2 :B3_w2 B3B2 :B2_w0 B2A2 :A2_w1 A2A3" />
+    </person>
+    <person id="school_ped_0_45" depart="51.80" type="normalPed">
+        <walk edges="B2B3 :B3_w1 B3C3 :C3_w2 :C3_c1 :C3_w1 C3D3 :D3_w1 :D3_c0 :D3_w0 D3C3" />
+    </person>
+    <person id="school_ped_0_46" depart="53.20" type="normalPed">
+        <walk edges="C1B1 :B1_w1 B1B2 :B2_w2 :B2_c1 :B2_w1 B2B3 :B3_w1 B3C3" />
+    </person>
+    <person id="school_ped_0_47" depart="54.60" type="normalPed">
+        <walk edges="B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 C2C1 :C1_w0 C1B1 :B1_w1 B1B2" />
+    </person>
+    <person id="school_ped_0_48" depart="55.30" type="normalPed">
+        <walk edges="A2A1 :A1_w0 :A1_c2 :A1_w2 :A1_c1 :A1_w1 A1A2 :A2_w2 A2B2 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 :C2_c2 :C2_w2 :C2_c1 :C2_w1 C2C3 :C3_w1 C3D3" />
+    </person>
+    <person id="school_ped_0_49" depart="56.00" type="slowPed">
+        <walk edges="B2B1 :B1_w0 :B1_c3 :B1_w3 :B1_c2 :B1_w2 :B1_c1 :B1_w1 B1B2 :B2_w2 :B2_c1 :B2_w1 B2B3" />
+    </person>
+    <person id="school_ped_0_50" depart="56.70" type="childBehaviorPed">
+        <walk edges="C1B1 :B1_w1 B1B2 :B2_w2 :B2_c1 :B2_w1 B2B3" />
+    </person>
+    <person id="school_ped_0_51" depart="57.40" type="childBehaviorPed">
+        <walk edges="B2B1 :B1_w0 :B1_c3 :B1_w3 B1B0 :B0_w0 :B0_c2 :B0_w2 B0C0 :C0_w2 :C0_c1 :C0_w1 C0C1" />
+    </person>
+    <person id="school_ped_0_52" depart="58.10" type="normalPed">
+        <walk edges="D2C2 :C2_w1 :C2_c0 :C2_w0 C2B2 :B2_w1 B2B3 :B3_w1 B3C3" />
+    </person>
+    <person id="school_ped_0_53" depart="58.80" type="normalPed">
+        <walk edges="C2D2 :D2_w2 :D2_c1 :D2_w1 D2D3 :D3_w0 D3C3 :C3_w0 C3B3 :B3_w0 :B3_c2 :B3_w2 B3B2" />
+    </person>
+    <person id="school_ped_0_54" depart="60.20" type="normalPed">
+        <walk edges="B0C0 :C0_w2 :C0_c1 :C0_w1 C0C1 :C1_w2 :C1_c1 :C1_w1 C1C2 :C2_w2 :C2_c1 :C2_w1 C2C3 :C3_w1 :C3_c0 :C3_w0 C3B3 :B3_w0 :B3_c2 :B3_w2 B3B2" />
+    </person>
+    <person id="school_ped_0_55" depart="60.90" type="normalPed">
+        <walk edges="B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 C2C1 :C1_w0 C1B1 :B1_w1 :B1_c0 :B1_w0 B1A1 :A1_w1 A1A2" />
+    </person>
+    <person id="school_ped_0_56" depart="61.60" type="normalPed">
+        <walk edges="B0C0 :C0_w2 :C0_c1 :C0_w1 :C0_c0 :C0_w0 C0B0 :B0_w1 B0B1 :B1_w2 :B1_c1 :B1_w1 :B1_c0 :B1_w0 B1A1 :A1_w1 A1A2 :A2_w2 A2B2" />
+    </person>
+    <person id="school_ped_0_57" depart="62.30" type="normalPed">
+        <walk edges="B3A3 :A3_w0 A3A2 :A2_w0 A2A1 :A1_w0 :A1_c2 :A1_w2 A1B1 :B1_w3 :B1_c2 :B1_w2 B1C1 :C1_w3 C1C0 :C0_w0 C0B0" />
+    </person>
+    <person id="school_ped_0_58" depart="63.70" type="childBehaviorPed">
+        <walk edges="B3B2 :B2_w0 :B2_c3 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 :D2_c1 :D2_w1 :D2_c0 :D2_w0 D2C2" />
+    </person>
+    <person id="school_ped_0_59" depart="64.40" type="childBehaviorPed">
+        <walk edges="C3D3 :D3_w1 D3D2 :D2_w0 :D2_c2 :D2_w2 D2D1 :D1_w0 D1C1 :C1_w1 :C1_c0 :C1_w0 C1B1 :B1_w1 B1B2" />
+    </person>
+    <person id="school_ped_0_60" depart="65.80" type="normalPed">
+        <walk edges="C2B2 :B2_w1 :B2_c0 :B2_w0 :B2_c3 :B2_w3 B2B1 :B1_w0 :B1_c3 :B1_w3 B1B0 :B0_w0 :B0_c2 :B0_w2 B0C0 :C0_w2 :C0_c1 :C0_w1 C0C1" />
+    </person>
+    <person id="school_ped_0_61" depart="66.50" type="normalPed">
+        <walk edges="B2B3 :B3_w1 :B3_c0 :B3_w0 B3A3 :A3_w0 A3A2 :A2_w0 A2A1" />
+    </person>
+    <person id="school_ped_0_62" depart="67.90" type="normalPed">
+        <walk edges="D2D1 :D1_w0 D1C1 :C1_w1 :C1_c0 :C1_w0 C1B1 :B1_w1 B1B2 :B2_w2 :B2_c1 :B2_w1 B2B3" />
+    </person>
+    <person id="school_ped_0_63" depart="69.30" type="normalPed">
+        <walk edges="A2B2 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 D2D1" />
+    </person>
+    <person id="school_ped_0_64" depart="70.00" type="slowPed">
+        <walk edges="A1B1 :B1_w3 :B1_c2 :B1_w2 :B1_c1 :B1_w1 :B1_c0 :B1_w0 B1A1 :A1_w1 A1A2 :A2_w2 :A2_c1 :A2_w1 :A2_c0 :A2_w0 A2A1" />
+    </person>
+    <person id="school_ped_0_65" depart="70.70" type="childBehaviorPed">
+        <walk edges="A3B3 :B3_w2 :B3_c1 :B3_w1 B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 C2C1 :C1_w0 C1B1" />
+    </person>
+    <person id="school_ped_0_66" depart="72.10" type="normalPed">
+        <walk edges="B1A1 :A1_w1 A1A2 :A2_w2 A2B2 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 :D2_c1 :D2_w1 D2D3" />
+    </person>
+    <person id="school_ped_0_67" depart="73.50" type="normalPed">
+        <walk edges="A2A1 :A1_w0 A1A0 :A0_w0 A0B0 :B0_w2 B0C0 :C0_w2 C0D0" />
+    </person>
+    <person id="school_ped_0_68" depart="74.90" type="normalPed">
+        <walk edges="C2C3 :C3_w1 :C3_c0 :C3_w0 C3B3 :B3_w0 :B3_c2 :B3_w2 B3B2 :B2_w0 :B2_c3 :B2_w3 B2B1 :B1_w0 :B1_c3 :B1_w3 B1B0 :B0_w0 :B0_c2 :B0_w2 B0C0" />
+    </person>
+    <person id="school_ped_0_69" depart="76.30" type="normalPed">
+        <walk edges="D3C3 :C3_w0 C3B3 :B3_w0 B3A3 :A3_w0 A3A2 :A2_w0 A2A1" />
+    </person>
+    <person id="school_ped_0_70" depart="77.00" type="slowPed">
+        <walk edges="B3A3 :A3_w0 A3A2 :A2_w0 :A2_c2 :A2_w2 A2B2 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 :D2_c1 :D2_w1 :D2_c0 :D2_w0 D2C2" />
+    </person>
+    <person id="school_ped_0_71" depart="78.40" type="childBehaviorPed">
+        <walk edges="A3B3 :B3_w2 :B3_c1 :B3_w1 B3C3 :C3_w2 :C3_c1 :C3_w1 C3D3 :D3_w1 D3D2" />
+    </person>
+    <person id="school_ped_0_72" depart="79.80" type="normalPed">
+        <walk edges="B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 C2C1 :C1_w0 :C1_c3 :C1_w3 C1C0 :C0_w0 C0B0 :B0_w1 B0B1" />
+    </person>
+    <person id="school_ped_0_73" depart="80.50" type="normalPed">
+        <walk edges="C1C2 :C2_w2 :C2_c1 :C2_w1 :C2_c0 :C2_w0 C2B2" />
+    </person>
+    <person id="school_ped_0_74" depart="81.20" type="normalPed">
+        <walk edges="A3B3 :B3_w2 :B3_c1 :B3_w1 B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 :C2_c2 :C2_w2 C2D2" />
+    </person>
+    <person id="school_ped_0_75" depart="83.30" type="normalPed">
+        <walk edges="B1A1 :A1_w1 A1A2 :A2_w2 A2B2 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 :C2_c2 :C2_w2 :C2_c1 :C2_w1 C2C3 :C3_w1 C3D3" />
+    </person>
+    <person id="school_ped_0_76" depart="85.40" type="childBehaviorPed">
+        <walk edges="B3B2 :B2_w0 :B2_c3 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 :D2_c1 :D2_w1 D2D3" />
+    </person>
+    <person id="school_ped_0_77" depart="86.80" type="normalPed">
+        <walk edges="B1B2 :B2_w2 B2C2 :C2_w3 C2C1 :C1_w0 C1B1" />
+    </person>
+    <person id="school_ped_0_78" depart="88.20" type="normalPed">
+        <walk edges="A3B3 :B3_w2 B3B2 :B2_w0 :B2_c3 :B2_w3 B2B1 :B1_w0 B1A1" />
+    </person>
+    <person id="school_ped_0_79" depart="90.30" type="normalPed">
+        <walk edges="B2A2 :A2_w1 :A2_c0 :A2_w0 A2A1 :A1_w0 :A1_c2 :A1_w2 A1B1 :B1_w3 :B1_c2 :B1_w2 :B1_c1 :B1_w1 B1B2" />
+    </person>
+    <person id="school_ped_0_80" depart="92.40" type="childBehaviorPed">
+        <walk edges="B1B0 :B0_w0 B0A0 :A0_w1 A0A1 :A1_w2 :A1_c1 :A1_w1 A1A2" />
+    </person>
+    <person id="school_ped_0_81" depart="93.80" type="normalPed">
+        <walk edges="D3C3 :C3_w0 C3B3 :B3_w0 :B3_c2 :B3_w2 B3B2 :B2_w0 :B2_c3 :B2_w3 B2B1 :B1_w0 :B1_c3 :B1_w3 B1B0 :B0_w0 B0A0" />
+    </person>
+    <person id="school_ped_0_82" depart="94.50" type="normalPed">
+        <walk edges="A0A1 :A1_w2 :A1_c1 :A1_w1 A1A2" />
+    </person>
+    <person id="school_ped_0_83" depart="97.30" type="normalPed">
+        <walk edges="A3B3 :B3_w2 :B3_c1 :B3_w1 B3C3 :C3_w2 C3C2" />
+    </person>
+    <person id="school_ped_0_84" depart="98.00" type="slowPed">
+        <walk edges="C2B2 :B2_w1 :B2_c0 :B2_w0 :B2_c3 :B2_w3 :B2_c2 :B2_w2 B2C2 :C2_w3 C2C1 :C1_w0 :C1_c3 :C1_w3 :C1_c2 :C1_w2 :C1_c1 :C1_w1 C1C2" />
+    </person>
+    <person id="school_ped_0_85" depart="99.40" type="childBehaviorPed">
+        <walk edges="B2C2 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 D2D1 :D1_w0 :D1_c2 :D1_w2 D1D0" />
+    </person>
+    <person id="school_ped_0_86" depart="100.10" type="normalPed">
+        <walk edges="A2A1 :A1_w0 A1A0" />
+    </person>
+    <person id="school_ped_0_87" depart="100.80" type="normalPed">
+        <walk edges="B2C2 :C2_w3 :C2_c2 :C2_w2 :C2_c1 :C2_w1 C2C3 :C3_w1 C3D3 :D3_w1 D3D2" />
+    </person>
+    <person id="school_ped_0_88" depart="101.50" type="normalPed">
+        <walk edges="A2A3 :A3_w1 A3B3 :B3_w2 :B3_c1 :B3_w1 B3C3 :C3_w2 C3C2 :C2_w0 :C2_c3 :C2_w3 :C2_c2 :C2_w2 C2D2 :D2_w2 D2D1 :D1_w0 :D1_c2 :D1_w2 D1D0" />
+    </person>
+    <person id="school_ped_0_89" depart="102.20" type="normalPed">
+        <walk edges="A2B2 :B2_w3 :B2_c2 :B2_w2 :B2_c1 :B2_w1 B2B3 :B3_w1 :B3_c0 :B3_w0 :B3_c2 :B3_w2 B3B2" />
+    </person>
+    <person id="school_ped_0_90" depart="103.60" type="normalPed">
+        <walk edges="A2A3 :A3_w1 :A3_c0 :A3_w0 A3A2 :A2_w0 A2A1 :A1_w0 A1A0 :A0_w0 A0B0" />
+    </person>
+    <person id="school_ped_0_91" depart="104.30" type="normalPed">
+        <walk edges="D3C3 :C3_w0 :C3_c2 :C3_w2 C3C2 :C2_w0 C2B2 :B2_w1 B2B3" />
+    </person>
+</routes>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-12T16:53:40.464542+00:00 by Eclipse SUMO sumo 1.28.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\SmartPedestrianSafety\network\modern_district.net.xml"/>
+        <route-files value="scenarios\generated_v2\school\scenario_E_mixed_traffic\vehicles.rou.xml,scenarios\generated_v2\school\scenario_E_mixed_traffic\pedestrians.rou.xml"/>
+        <additional-files value="C:\SmartPedestrianSafety\additional\urban_objects.add.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="results\scenarios\school_v2\E_mixed_traffic\collisions.xml"/>
+    </output>
+
+    <time>
+        <end value="600"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <intermodal-collision.action value="warn"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="58143"/>
+    </traci_server>
+
+</sumoConfiguration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+</collisions>

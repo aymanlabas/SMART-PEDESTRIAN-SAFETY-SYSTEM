@@ -1,0 +1,22 @@
+RANDOM FOREST EVALUATION
+========================================
+Accuracy: 0.9893
+Precision: 0.2872
+Recall: 0.6730
+F1-score: 0.4026
+PR-AUC: 0.4890
+ROC-AUC: 0.9871
+
+Confusion Matrix:
+[[135562   1236]
+ [   242    498]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     No Risk       1.00      0.99      0.99    136798
+        Risk       0.29      0.67      0.40       740
+
+    accuracy                           0.99    137538
+   macro avg       0.64      0.83      0.70    137538
+weighted avg       0.99      0.99      0.99    137538

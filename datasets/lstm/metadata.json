@@ -1,0 +1,33 @@
+{
+    "sequence_length": 20,
+    "stride": 5,
+    "max_gap_seconds": 0.2,
+    "number_of_features": 35,
+    "numeric_features": [
+        "distance",
+        "vehicle_speed",
+        "pedestrian_speed",
+        "relative_speed",
+        "closing_speed",
+        "intersection_distance",
+        "vehicle_density_30m",
+        "pedestrian_density_30m",
+        "avg_vehicle_speed_30m",
+        "is_school_zone",
+        "is_hospital_zone",
+        "is_commercial_zone",
+        "is_residential_zone",
+        "is_intersection"
+    ],
+    "categorical_features": [
+        "zone_type",
+        "nearest_intersection_id"
+    ],
+    "target": "risk_label",
+    "train_sequences": 75025,
+    "validation_sequences": 18771,
+    "test_sequences": 23412,
+    "train_positive": 432,
+    "validation_positive": 108,
+    "test_positive": 133
+}

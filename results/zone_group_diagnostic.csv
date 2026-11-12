@@ -1,0 +1,16 @@
+split,zone_type,unique_pairs,pairs_with_risk,sequences,risk_sequences
+Test,commercial_zone,28,1,326,6
+Test,hospital_zone,80,1,1761,6
+Test,normal_zone,868,18,19450,105
+Test,residential_zone,60,2,888,8
+Test,school_zone,57,1,987,8
+Train,commercial_zone,107,0,1290,0
+Train,hospital_zone,195,1,4169,10
+Train,normal_zone,2888,58,63245,359
+Train,residential_zone,179,0,3104,0
+Train,school_zone,172,9,3217,63
+Validation,commercial_zone,23,0,282,0
+Validation,hospital_zone,48,0,995,0
+Validation,normal_zone,730,17,15968,108
+Validation,residential_zone,41,0,702,0
+Validation,school_zone,40,0,824,0

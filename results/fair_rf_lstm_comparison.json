@@ -1,0 +1,103 @@
+{
+    "test_sequence_count": 23412,
+    "test_positive_count": 133,
+    "test_negative_count": 23279,
+    "random_forest": {
+        "threshold_rule": "Highest precision with validation recall >= 0.65",
+        "validation": {
+            "threshold": 0.5200000000000001,
+            "accuracy": 0.9936071599808215,
+            "precision": 0.461038961038961,
+            "recall": 0.6574074074074074,
+            "f1": 0.5419847328244275,
+            "pr_auc": 0.625963987955718,
+            "roc_auc": 0.9837683890287974,
+            "TN": 18580,
+            "FP": 83,
+            "FN": 37,
+            "TP": 71,
+            "confusion_matrix": [
+                [
+                    18580,
+                    83
+                ],
+                [
+                    37,
+                    71
+                ]
+            ]
+        },
+        "test": {
+            "threshold": 0.5200000000000001,
+            "accuracy": 0.9938920211857167,
+            "precision": 0.463768115942029,
+            "recall": 0.48120300751879697,
+            "f1": 0.47232472324723246,
+            "pr_auc": 0.5185333796602005,
+            "roc_auc": 0.9896515204416384,
+            "TN": 23205,
+            "FP": 74,
+            "FN": 69,
+            "TP": 64,
+            "confusion_matrix": [
+                [
+                    23205,
+                    74
+                ],
+                [
+                    69,
+                    64
+                ]
+            ]
+        }
+    },
+    "lstm": {
+        "threshold_rule": "Highest precision with validation recall >= 0.65",
+        "validation": {
+            "threshold": 0.14,
+            "accuracy": 0.9586063608758191,
+            "precision": 0.08754623921085081,
+            "recall": 0.6574074074074074,
+            "f1": 0.15451577801958652,
+            "pr_auc": 0.3704131729843219,
+            "roc_auc": 0.9469761917519512,
+            "TN": 17923,
+            "FP": 740,
+            "FN": 37,
+            "TP": 71,
+            "confusion_matrix": [
+                [
+                    17923,
+                    740
+                ],
+                [
+                    37,
+                    71
+                ]
+            ]
+        },
+        "test": {
+            "threshold": 0.14,
+            "accuracy": 0.9596360840594567,
+            "precision": 0.08906882591093117,
+            "recall": 0.6616541353383458,
+            "f1": 0.15700267618198038,
+            "pr_auc": 0.3054636644720638,
+            "roc_auc": 0.8379284049291578,
+            "TN": 22379,
+            "FP": 900,
+            "FN": 45,
+            "TP": 88,
+            "confusion_matrix": [
+                [
+                    22379,
+                    900
+                ],
+                [
+                    45,
+                    88
+                ]
+            ]
+        }
+    }
+}

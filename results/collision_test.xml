@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-10T21:28:23.350648+00:00 by Eclipse SUMO sumo 1.28.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value=".\network\modern_district.net.xml"/>
+        <route-files value=".\routes\vehicles_long.rou.xml,.\scenarios\slow_pedestrians.rou.xml"/>
+        <additional-files value=".\additional\urban_objects.add.xml"/>
+    </input>
+
+    <output>
+        <collision-output value=".\results\collision_test.xml"/>
+    </output>
+
+    <time>
+        <end value="120"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="warn"/>
+        <intermodal-collision.action value="warn"/>
+    </processing>
+
+</sumoConfiguration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+</collisions>

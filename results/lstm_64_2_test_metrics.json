@@ -1,0 +1,27 @@
+{
+    "model": "models/LSTM_64_2.pt",
+    "architecture": "LSTM_64_2",
+    "input_size": 35,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "threshold": 0.07262967526912689,
+    "test_sequences": 23412,
+    "actual_risk": 133,
+    "actual_no_risk": 23279,
+    "accuracy": 0.9775756022552538,
+    "precision": 0.14102564102564102,
+    "recall": 0.5789473684210527,
+    "f1": 0.2268041237113402,
+    "pr_auc": 0.24980593053355496,
+    "roc_auc": 0.8490609336176043,
+    "confusion_matrix": [
+        [
+            22810,
+            469
+        ],
+        [
+            56,
+            77
+        ]
+    ]
+}

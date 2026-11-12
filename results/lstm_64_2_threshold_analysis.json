@@ -1,0 +1,52 @@
+{
+    "model": "models/LSTM_64_2.pt",
+    "architecture": "LSTM_64_2",
+    "dataset": "datasets/lstm/validation.npz",
+    "validation_sequences": 18771,
+    "validation_risk": 108,
+    "validation_no_risk": 18663,
+    "pr_auc": 0.4381549785166928,
+    "roc_auc": 0.9551578583888503,
+    "thresholds_by_minimum_recall": [
+        {
+            "minimum_recall_target": 0.65,
+            "threshold": 0.07262967526912689,
+            "precision": 0.15468409586056645,
+            "recall": 0.6574074074074074,
+            "f1": 0.2504409171072754,
+            "accuracy": 0.9773586915987428
+        },
+        {
+            "minimum_recall_target": 0.7,
+            "threshold": 0.029826268553733826,
+            "precision": 0.10106382978723404,
+            "recall": 0.7037037037037037,
+            "f1": 0.176744186046292,
+            "accuracy": 0.9622822438868467
+        },
+        {
+            "minimum_recall_target": 0.75,
+            "threshold": 0.01063500251621008,
+            "precision": 0.06633906633906633,
+            "recall": 0.75,
+            "f1": 0.12189616252806737,
+            "accuracy": 0.9378296308134889
+        },
+        {
+            "minimum_recall_target": 0.8,
+            "threshold": 0.0035415205638855696,
+            "precision": 0.045809474232170744,
+            "recall": 0.8148148148148148,
+            "f1": 0.08674223755534524,
+            "accuracy": 0.9012838953705183
+        }
+    ],
+    "best_f1_threshold": {
+        "threshold": 0.9345076680183411,
+        "precision": 0.5591397849462365,
+        "recall": 0.48148148148148145,
+        "f1": 0.5174129353228858,
+        "accuracy": 0.9948324543178307
+    },
+    "threshold_selection_dataset": "validation_only"
+}

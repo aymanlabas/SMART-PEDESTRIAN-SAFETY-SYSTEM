@@ -1,0 +1,6 @@
+zone_type,total_sequences,actual_risk,predicted_risk,false_positives,false_negatives,error_count
+commercial_zone,326,6,0,0,6,6
+hospital_zone,1761,6,0,0,6,6
+normal_zone,19450,105,493,424,36,460
+residential_zone,888,8,0,0,8,8
+school_zone,987,8,53,45,0,45

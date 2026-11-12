@@ -1,0 +1,60 @@
+{
+    "best_epoch": 8,
+    "best_validation_pr_auc": 0.3704131729843219,
+    "threshold_selection_rule": "Highest validation precision with recall >= 0.65",
+    "selected_threshold": 0.14,
+    "validation_metrics": {
+        "threshold": 0.14,
+        "accuracy": 0.9586063608758191,
+        "precision": 0.08754623921085081,
+        "recall": 0.6574074074074074,
+        "f1": 0.15451577801958652,
+        "pr_auc": 0.3704131729843219,
+        "roc_auc": 0.9469761917519512,
+        "confusion_matrix": [
+            [
+                17923,
+                740
+            ],
+            [
+                37,
+                71
+            ]
+        ],
+        "TN": 17923,
+        "FP": 740,
+        "FN": 37,
+        "TP": 71
+    },
+    "test_metrics": {
+        "threshold": 0.14,
+        "accuracy": 0.9596360840594567,
+        "precision": 0.08906882591093117,
+        "recall": 0.6616541353383458,
+        "f1": 0.15700267618198038,
+        "pr_auc": 0.3054636644720638,
+        "roc_auc": 0.8379284049291578,
+        "confusion_matrix": [
+            [
+                22379,
+                900
+            ],
+            [
+                45,
+                88
+            ]
+        ],
+        "TN": 22379,
+        "FP": 900,
+        "FN": 45,
+        "TP": 88
+    },
+    "model_configuration": {
+        "input_size": 35,
+        "hidden_size": 64,
+        "sequence_length": 20,
+        "batch_size": 256,
+        "learning_rate": 0.001,
+        "pos_weight": 172.6689814814815
+    }
+}

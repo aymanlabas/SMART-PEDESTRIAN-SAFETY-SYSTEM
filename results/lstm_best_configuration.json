@@ -1,0 +1,11 @@
+{
+    "pos_weight": 40.0,
+    "best_epoch": 5,
+    "best_val_pr_auc": 0.31432049679280405,
+    "val_roc_auc": 0.9574529520679657,
+    "threshold": 0.2467263787984848,
+    "val_precision": 0.10823170731707317,
+    "val_recall": 0.6574074074074074,
+    "val_f1": 0.18586387432127408,
+    "model_path": "models/lstm_posweight_40_0.pt"
+}

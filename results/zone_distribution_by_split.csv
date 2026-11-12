@@ -1,0 +1,16 @@
+split,zone_type,no_risk,risk,total,risk_percentage
+Test,commercial_zone,320,6,326,1.84
+Test,hospital_zone,1755,6,1761,0.341
+Test,normal_zone,19345,105,19450,0.54
+Test,residential_zone,880,8,888,0.901
+Test,school_zone,979,8,987,0.811
+Train,commercial_zone,1290,0,1290,0.0
+Train,hospital_zone,4159,10,4169,0.24
+Train,normal_zone,62886,359,63245,0.568
+Train,residential_zone,3104,0,3104,0.0
+Train,school_zone,3154,63,3217,1.958
+Validation,commercial_zone,282,0,282,0.0
+Validation,hospital_zone,995,0,995,0.0
+Validation,normal_zone,15860,108,15968,0.676
+Validation,residential_zone,702,0,702,0.0
+Validation,school_zone,824,0,824,0.0
